@@ -5,7 +5,8 @@ tower and its modules.
 
 A module — [Cleanator](https://github.com/blackberrylabs/cleanator),
 [MCProster](https://github.com/blackberrylabs/mcproster),
-[Permitt](https://github.com/blackberrylabs/permitt), … — answers `<module> report --json`
+[Permitt](https://github.com/blackberrylabs/permitt),
+[Linstruct](https://github.com/blackberrylabs/linstruct), … — answers `<module> report --json`
 with one `bbl-report/1` document on stdout. The tower reads those documents, merges them
 into one list of findings sorted by severity, and opens the module at the right place. This
 crate is the only thing the two sides share.
