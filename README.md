@@ -69,6 +69,14 @@ changelog; the tower never reinterprets.
   a default, so a field *added* keeps `bbl-report/1`. A field removed or whose meaning
   changes becomes `bbl-report/2`; `peek_schema` reads the version before any typed parsing.
 
+## Part of Blackberrylabs
+
+One of the three shared crates of the [Blackberrylabs](https://github.com/blackberrylabs)
+family — with [`bbl-hostrules`](https://github.com/blackberrylabs/bbl-hostrules) (the files of AI hosts) and [`bbl-ui`](https://github.com/blackberrylabs/bbl-ui) (the shared face) — behind the control tower and its modules (Cleanator, MCProster,
+Permitt). A new module starts from the [module template](https://github.com/blackberrylabs/template);
+the procedure is [`docs/new-module.md`](https://github.com/blackberrylabs/blackberrylabs/blob/main/docs/new-module.md)
+in the tower.
+
 ## Use
 
 ```toml
@@ -97,6 +105,11 @@ Checking, in the module's tests and in the tower:
 ```rust
 let report = bbl_report::conformance::check(&json)?;   // Err(Vec<String>) lists every defect
 ```
+
+## Adding a module
+
+The whole procedure — template, report, severity mapping, `--select`, the sheet in the
+tower — is [`docs/new-module.md`](https://github.com/blackberrylabs/blackberrylabs/blob/main/docs/new-module.md).
 
 ## Development
 
