@@ -12,7 +12,7 @@
 
 ## Etape 2. Publication — sur accord
 - [x] Depot `blackberrylabs/bbl-report`, push (SSH), tag v0.1.0 — 2026-10-16
-- [ ] Description et sujets du depot sur GitHub
+- [x] Description et sujets du depot sur GitHub (API publique de GitHub : description posee, 5 sujets) — 2026-10-26
 
 ## Ensuite (BRIEF de la tour, etape 0)
 - [x] `permitt report` + `--select` dans `permitt-app` — 2026-10-16
